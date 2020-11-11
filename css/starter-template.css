@@ -1,0 +1,266 @@
+body {
+    padding-top: 50px;
+    font-family: 'Alegreya Sans', sans-serif;
+    background: #F1F4F6;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #f5f5f5;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Y2ZjgiIHN0b3Atb3BhY2l0eT0iMC42NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(243,246,248,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(243,246,248,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(243,246,248,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(243,246,248,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(243,246,248,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(243,246,248,0.65) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6f3f6f8',GradientType=0 ); /* IE6-8 */
+}
+
+.navbar-brand img {
+    height: 19px;
+}
+
+.flag-brasil {
+    position: relative;
+    /* animation */
+    animation:flaganim 10s;
+    -webkit-animation:flaganim 10s;
+}
+
+@keyframes flaganim {
+    0% {
+        background-position:-200px 0;
+    }
+    50% {
+        background-position:-50px -500px;
+    }
+    100% {
+        background-position:0 -340px;
+    }
+}
+
+@-webkit-keyframes flaganim
+/* Safari */
+ {
+    0% {
+        background-position:-200px 0;
+    }
+    50% {
+        background-position:-50px -500px;
+    }
+    100% {
+        background-position:0 -340px;
+    }
+}
+
+.wrapper-candidate-main-photo {
+    text-align: right;
+}
+
+.candidate-main-photo {
+    height: 420px;
+    margin-left: 30px;
+}
+
+.candidate-content {
+    position: relative;
+    /* shadow */
+    -webkit-box-shadow: 0 25px 20px -20px #aaa;
+    box-shadow: 0 25px 20px -20px #aaa;
+}
+
+.box-with-shadow {
+    -webkit-box-shadow: 0 25px 20px -20px #ddd;
+    box-shadow: 0 25px 20px -20px #ddd;
+}
+
+.candidate-desc {
+    padding: .5em 0 .2em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,248,250,1) 50%, rgba(237,240,242,1) 51%, rgba(245,248,250,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(245,248,250,1)), color-stop(51%, rgba(237,240,242,1)), color-stop(100%, rgba(245,248,250,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,248,250,1) 50%, rgba(237,240,242,1) 51%, rgba(245,248,250,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,248,250,1) 50%, rgba(237,240,242,1) 51%, rgba(245,248,250,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,248,250,1) 50%, rgba(237,240,242,1) 51%, rgba(245,248,250,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,248,250,1) 50%, rgba(237,240,242,1) 51%, rgba(245,248,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f8fa', GradientType=0 );
+}
+
+.candidate-desc .col-md-12 {
+    position: relative;
+}
+
+.candidate-type {
+    font-size: 1em;
+    font-style: italic;
+    position: absolute;
+    top: 10px;
+}
+
+.candidate-name {
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+.candidate-publicity {
+    zoom: 1;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+    background-color: #000;
+    color: #fff;
+    border-top-left-radius: 1.4em;
+    border-top-right-radius: 1.4em;
+    padding: .3em 2em 1em;
+    position: absolute;
+    bottom: 0;
+}
+
+.candidate-publicity p {
+    font-size: 1.2em;
+}
+
+.nav .glyphicon {
+    margin-right: .5em;
+}
+
+.sub-news {
+    font-size: 1.3em;
+    color: #666;
+}
+
+.top-social {
+    text-align: right;
+    z-index: 3;
+}
+
+.top-social a {
+    margin-top: 1px;
+    padding: 4px 8px 2px;
+}
+
+.top-social a:hover {
+    background: #eee;
+}
+
+.top-social .color-facebook i {
+    color: #3B5998;
+}
+
+.top-social .color-facebook:hover {
+    background: #3B5998;
+}
+
+.top-social .color-twitter i {
+    color: #55ACEE;
+}
+
+.top-social .color-twitter:hover {
+    background: #55ACEE;
+}
+
+.top-social .color-instagram i {
+    color: #517fa4;
+}
+
+.top-social .color-instagram:hover {
+    background: #517fa4;
+}
+
+.top-social .color-youtube i {
+    color: #cc181e;
+}
+
+.top-social .color-youtube:hover {
+    background: #cc181e;
+}
+
+.top-social .color-flickr i {
+    color: #ff0084;
+}
+
+.top-social .color-flickr:hover {
+    background: #ff0084;
+}
+
+.top-social .color-soundcloud i {
+    color: #FE4C00;
+}
+
+.top-social .color-soundcloud:hover {
+    background: #FE4C00;
+}
+
+.top-social .color-google-plus i {
+    color: #DA2713;
+}
+
+.top-social .color-google-plus:hover {
+    background: #DA2713;
+}
+
+.top-social .color-linkedin i {
+    color: #1B86BC;
+}
+
+.top-social .color-linkedin:hover {
+    background: #1B86BC;
+}
+
+.top-social .color-pinterest i {
+    color: #CD1D1F;
+}
+
+.top-social .color-pinterest:hover {
+    background: #CD1D1F;
+}
+
+.top-social a:hover i {
+    color: #fff;
+}
+
+.top-social a i {
+    font-size: 1.2em;
+    color: #999;
+}
+
+.news {
+    background: #fafafa;
+    border-radius: .5em;
+    margin: 20px 0 5px;
+    padding-bottom: 5px;
+}
+
+.copy-text {
+    padding-top: 10px;
+    line-height: 1.2em;
+}
+
+.part-text {
+    text-align: right;
+}
+
+.main-menu-footer a {
+    margin-right: 1em;
+}
+
+.main-menu-footer a:last-child {
+    margin-right: 0;
+}
+
+.main-menu-footer a span.glyphicon {
+    margin-right: .5em;
+}
+
+footer {
+    color: #999;
+    background: #f9fbfc;
+}
