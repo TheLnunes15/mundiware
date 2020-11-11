@@ -1,7 +1,7 @@
-Candidate Site
+Elections Site
 ==============
 
-Website for candidates of the 2014 elections
+Website for candidates of the 2020 elections
 
 
 
